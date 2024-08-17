@@ -4,6 +4,19 @@
   padding: 2rem;
   text-align: center;
 }
+.hero-container {
+  background-size: cover;
+  animation: slideDown 3s ease-in-out forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    background-position: center -100vh;
+  }
+  100% {
+    background-position: center 0;
+  }
+}
 
 .logo {
   height: 6em;
